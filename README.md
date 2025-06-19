@@ -15,7 +15,7 @@ Projeyi çalıştırmadan önce aşağıdaki iki dosyada gerekli düzenlemeleri 
 
 `env_login.env` -> Görsellerin aldığı beğenileri görebilmek için kullanıcı girişi yapılması şartı bulunduğu için; 
                   `MY_EKSISOZLUK_EMAIL ve MY_EKSISOZLUK_PASSWORD` değişkenlerine aşağıdaki gibi email ve şifrenizi girmeniz gerekmekte.
-                  MY_EKSISOZLUK_EMAIL="örnek_mail_adresi@gmail.com"
+                  MY_EKSISOZLUK_EMAIL="örnek_mail_adresi[at]gmail.com"
                   MY_EKSISOZLUK_PASSWORD="örnek_şifre_123"
 
 1. **`app-1 prepare links.ipynb`**  
