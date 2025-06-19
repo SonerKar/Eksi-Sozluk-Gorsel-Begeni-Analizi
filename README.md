@@ -1,8 +1,7 @@
 # SözlükLens — Ekşi Sözlük Görsel Beğeni Analizi
 
-Bu proje, Ekşi Sözlük'teki 'Sözlük Yazarlarının Çektiği Fotoğraflar' başlığında paylaşılan fotoğrafların aldığı beğeni sayılarının ve pek çok şeyin analizini, görsellerin sınıflandırılması ve makine öğrenmesi modelinin geliştirilmesi içerir.
-68292 tane görselin web-scraping ile elde edilmiştir, bu süreçte Selenium kullanılmıştır.
-Görsel sayısı fazlaca olduğundan görsellerin download edilmesinde Multithreading yöntemi kullanılmıştır
+Bu proje, Ekşi Sözlük’teki “Sözlük Yazarlarının Çektiği Fotoğraflar” başlığında paylaşılan 68.292 görselin beğeni sayıları ve çeşitli özelliklerinin analizini, görsellerin sınıflandırılmasını ve bir makine öğrenmesi modeli geliştirilmesini içermektedir.
+Görseller Selenium ile web scraping yöntemiyle toplanmış, indirme işlemlerinde ise çok sayıda görseli hızlıca çekebilmek için multithreading kullanılmıştır.
 ---
 
 ##  Proje Çalıştırma Adımları
@@ -15,8 +14,8 @@ Projeyi çalıştırmadan önce aşağıdaki iki dosyada gerekli düzenlemeleri 
 
 `env_login.env` -> Görsellerin aldığı beğenileri görebilmek için kullanıcı girişi yapılması şartı bulunduğu için; 
                   `MY_EKSISOZLUK_EMAIL ve MY_EKSISOZLUK_PASSWORD` değişkenlerine aşağıdaki gibi email ve şifrenizi girmeniz gerekmekte.
-                  MY_EKSISOZLUK_EMAIL="örnek_mail_adresi[at]gmail.com"
-                  MY_EKSISOZLUK_PASSWORD="örnek_şifre_123"
+                   MY_EKSISOZLUK_EMAIL="örnek_mail_adresi[at]gmail.com"
+                   MY_EKSISOZLUK_PASSWORD="örnek_şifre_123"
 
 1. **`app-1 prepare links.ipynb`**  
    - Bu Ekşi Sözlük üzerinde görsel içeren entry’lerin linklerini toplar.
